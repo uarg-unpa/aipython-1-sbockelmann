@@ -7,6 +7,12 @@ print("Producto ",num1*num2)
 print("la potencia ",num1**num2)
 print("el resto",num1%num2)
 
+#punto 8
+base= float(input("Ingrese la base: "))
+altura = float(input("Ingrese la altura: "))
+print("El perimetro es: ",2*altura+2*base)
+print("El area del rectangulo es: ",base*altura)
+
 #punto 9
 import math
 peso = float(input("ingrese su peso (en kg): "))

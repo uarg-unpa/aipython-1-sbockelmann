@@ -3,7 +3,7 @@ total=0
 promedio=0
 for i in range(1,11):
     # precio = float(input(f"Ingrese el precio del producto {i}: "))
-     precio = int(1)
+     precio = int(1) # NO VA
      total += precio
 
 promedio = total / 10
