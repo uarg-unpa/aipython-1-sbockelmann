@@ -29,5 +29,35 @@ print(texto.swapcase())
 
 #punto 17
 nombre_completo= str(input("Ingrese el nombre completo: "))
-for i in range(1,4):
-     print(nombre_completo)
+print(nombre_completo *3)
+
+#punto 18
+#VOLVER A INTENTAR
+print("      *")
+print("    *   *")
+print("   *     *")
+print("  *       *")
+print(" ***     ***")
+print("    *   *")
+print("    *   *")
+print("    *****")
+
+#punto 19
+print("      *","\n","   *   *","\n","  *     *","\n"," *       *","\n","***     ***","\n","   *   *","\n","   *   *","\n","   *****")
+
+#punto 20
+
+
+#punto 21
+palabra= str(input("ingrese una palabra: "))
+print(palabra.replace('a','😃'))
+
+#punto 22
+frase='"El razonamiento matemático puede considerarse mas bien esquematicamente como el ejercicio de una combinacion de dos intalaciones, que podemos llamar la instuicion y el ingenio"'
+print(frase[16:])
+
+#punto 23
+print("punto 23")
+cadena='"  El razonamiento matemático puede considerarse mas bien esquematicamente como el ejercicio de una combinacion de dos intalaciones, que podemos llamar la instuicion y el ingenio  "'
+sacar=cadena.strip()
+print(sacar)
