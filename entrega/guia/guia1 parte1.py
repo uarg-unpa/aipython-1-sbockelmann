@@ -25,3 +25,9 @@ costo_por_hora = float(input("Ingrese el costo por hora: "))
 print("El sueldo que le corresponde es", hora_trabajada*costo_por_hora)
 
 #punto 12
+cantidad = int(input("Ingrese la cantidad a invertir: "))
+interes_anual = float(input("Interes anual es: "))
+años = int(input("Número de años: "))
+capital_obtenido = cantidad * (1 + interes_anual) ** años
+capital_obtenido = round(capital_obtenido, 2)
+print(f"el capital obtenido de inversion es: {capital_obtenido}")
