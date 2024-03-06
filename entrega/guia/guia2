@@ -1,0 +1,52 @@
+#punto 1
+edad = int(input('Ingrese su edad: '))
+if edad >= 18:
+    print("Tiene edad suficiente para conducir")
+else:
+    falta=18 - edad
+    print(f"le falta {falta} años para poder conducir") 
+
+#punto 2
+edad_usuario = int(input("Ingrese su edad: "))
+mi_edad = 36
+if mi_edad > edad_usuario:
+    print("Soy mayor que tú")
+    diferencia = mi_edad - edad_usuario
+    if diferencia == 1:
+        print(f"Te llevo {diferencia} año de ventaja")
+    else:
+        print(f"Te llevo {diferencia} años de ventaja")
+elif mi_edad < edad_usuario:
+    print("Eres mayor que yo")
+    diferencia = edad_usuario - mi_edad
+    if diferencia == 1:
+        print(f"Me llevas {diferencia} año de ventaja.")
+    else:
+        print(f"Me llevas {diferencia} años de ventaja.")
+else:
+    print("¡Somos de la misma generación! ¡Qué coincidencia!")
+
+#punto 3
+contraseña_guardada = "Contraseña123"
+contraseña_usuario = input("Ingrese su contraseña: ")
+if contraseña_guardada.lower() == contraseña_usuario.lower():
+    print("¡La contraseña es correcta!")
+else:
+    print("La contraseña no coincide.")
+
+#punto 4
+a = float(input("ingrese un número: "))
+b = float(input("ingrese el segundo número: "))
+if a > b:
+    print("a es mayor que b")
+elif a < b:
+    print("a es menor que b")
+else:
+    print("a es igual a b")
+
+#punto 5
+num = int(input("ingrese un número: "))
+if num % 2 == 0:
+    print(f"El numero {num} es par")
+else:
+     print(f"El numero {num} es impar")
