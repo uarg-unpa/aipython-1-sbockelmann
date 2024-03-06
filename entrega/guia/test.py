@@ -1,20 +1,2 @@
-print("      *")
-print("    *   *")
-print("   *     *")
-print("  *       *")
-print(" ***     ***")
-print("    *   *")
-print("    *   *")
-print("    *****")
-
-#punto 19
-print("      *","\n","   *   *","\n","  *     *","\n"," *       *","\n","***     ***","\n","   *   *","\n","   *   *","\n","   *****")
-
-print("      *"*2)
-print("    *   *"*2,"\t")
-print("   *     *"*2,"\t")
-print("  *       *"*2)
-print(" ***     ***"*2)
-print("    *   *"*2)
-print("    *   *"*2)
-print("    *****"*2)
+print("Nombre\tEdad\tPais\tCiudad")
+print("Alexa\t250\tUSA\tCapeCod")
