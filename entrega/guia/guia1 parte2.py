@@ -1,11 +1,15 @@
 #punto 13
-total=0
-promedio=0
-for i in range(1,11):
-    #precio = float(input(f"Ingrese el precio del producto {i}: "))
-    precio = 1 #prueba
-    total += precio
-
+p1 = float(input(f"Ingrese el precio del producto {i}: "))
+p2 = float(input(f"Ingrese el precio del producto {i}: "))
+p3 = float(input(f"Ingrese el precio del producto {i}: "))
+p4 = float(input(f"Ingrese el precio del producto {i}: "))
+p5 = float(input(f"Ingrese el precio del producto {i}: "))
+p6 = float(input(f"Ingrese el precio del producto {i}: "))
+p7 = float(input(f"Ingrese el precio del producto {i}: "))
+p8 = float(input(f"Ingrese el precio del producto {i}: "))
+p9 = float(input(f"Ingrese el precio del producto {i}: "))
+p10 = float(input(f"Ingrese el precio del producto {i}: "))
+total = p1+p2+p3+p4+p5+p6+p7+p8+p9+p10
 promedio = total / 10
 promedio = round(promedio, 2)
 print(f"El promedio de precios de los 10 productos es: {promedio}")

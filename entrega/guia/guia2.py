@@ -47,6 +47,59 @@ else:
 #punto 5
 num = int(input("ingrese un número: "))
 if num % 2 == 0:
-    print(f"El numero {num} es par")
+    print(f"El número {num} es par")
 else:
-     print(f"El numero {num} es impar")
+     print(f"El número {num} es impar")
+
+#punto 6
+semana=int(input("Ingrese un número del 1 al 7"))
+if semana >= 1 and semana <=7:
+    match semana:
+        case 1:
+            print("lunes")
+        case 2:
+            print("martes")
+        case 3:
+            print("miercoles")
+        case 4:
+            print("jueves")
+        case 5:
+            print("viernes")
+        case 6:
+            print("sabado")
+        case 7:
+            print("domingo")
+else:
+    print(f"El número {semana} no se encuntra dentro del rango del 1 al 7")
+
+#punto 7
+puntaje= int(input("Ingrese su puntaje: "))
+if (puntaje >= 80 and puntaje <= 100):
+    print("A")
+elif puntaje >=70 and puntaje <=89:
+    print("B")
+elif puntaje >=60 and puntaje <=69:
+    print("C")
+elif puntaje >=50 and puntaje <=59:
+    print("D")
+else:
+    print("F")
+
+#punto 8
+edad_usuario1=int (input("Ingrese la edad del cliente: "))
+if edad_usuario1 < 4:
+    print("puede pasar gratis")
+elif edad_usuario1 > 4 and edad_usuario1 <8:
+    print("Debe pagar $5")
+else:
+    print("Debe pagar $10")
+
+#punto 9
+edad_usuario = int(input("Ingrese la edad: "))
+ingreso = int(input("Ingrese su ingreso mensual: "))
+if edad_usuario >= 18 and ingreso >= 100000:
+    print("Tiene que pagar impuestos")
+else:
+    print ("No tiene que pagar inpuestos")
+
+ 
