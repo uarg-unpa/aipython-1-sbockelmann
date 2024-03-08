@@ -63,3 +63,9 @@ print(f"La suma de los primeros {N} número pares es {suma_pares}")
 #punto 14
 num1 = int(input("Ingrese el primer número: "))
 num2= int(input("Ingrese el segundo número: "))
+if num1 > num2:
+    num1,num2 =num2,num1 #Intercambia los valores si el primero es mayor que  el segundo
+print(f"Números paresentre {num1} y {num2} son:")
+for k in range(num1, num2,+1):
+    if(k%2==0):
+        print(k)
