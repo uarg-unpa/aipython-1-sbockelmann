@@ -3,11 +3,9 @@ num = 0
 while num <= 100:
     print(num)
     num= num+1
-
 #punto 2
 for i in range(0, 100):
     print(i, end=' ')
-
 #punto 3
 num = 10
 while num >= 0:
@@ -16,7 +14,6 @@ while num >= 0:
 print("FOR.....")
 for i in range(10, -1, -1):
     print(i, end=' ')
-
 #punto 4
 num1 = int(input("Ingrese el primer número entero: "))
 num2 = int(input("Ingrese el segundo número entero: "))
@@ -26,9 +23,7 @@ if num1 < num2:
 else:
     start_num = num2
     end_num = num1
-
 cont_num = start_num + 1
-
 while cont_num <end_num:
     print(cont_num, end=' ')
     cont_num += 1
@@ -52,9 +47,7 @@ while contador in range(num_entero):
     contador=contador+1
 
 #punto 8
-
 num = int(input("Ingrese un número entero positivo mayor a 3: "))
-
 if num <= 3:
     print("El número ingresado no es válido.")
 else:
@@ -92,7 +85,6 @@ for i in range(1,n+1):
             expresion += " + "
         else:
             expresion += " = "
-
 print(expresion + str(suma))
 
 #punto 13
