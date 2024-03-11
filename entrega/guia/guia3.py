@@ -5,8 +5,43 @@ while num <= 100:
     num= num+1
 
 #punto 2
+for i in range(0, 100):
+    print(i, end=' ')
 
+#punto 3
+num = 10
+while num >= 0:
+    print(num, end=' ')
+    num -= 1
+print("FOR.....")
+for i in range(10, -1, -1):
+    print(i, end=' ')
 
+#punto 4
+num1 = int(input("Ingrese el primer número entero: "))
+num2 = int(input("Ingrese el segundo número entero: "))
+if num1 < num2:
+    start_num = num1
+    end_num = num2
+else:
+    start_num = num2
+    end_num = num1
+
+cont_num = start_num + 1
+
+while cont_num <end_num:
+    print(cont_num, end=' ')
+    cont_num += 1
+
+#punto 5
+for i in range(1, 8):
+    print("#" * i)
+
+#punto 6
+for i in range(7):
+    for j in range(8):
+        print("#", end="")
+    print()
 
 #punto 7
 nombre_usuario = str(input("Ingrese su nombre: "))
@@ -18,6 +53,14 @@ while contador in range(num_entero):
 
 #punto 8
 
+num = int(input("Ingrese un número entero positivo mayor a 3: "))
+
+if num <= 3:
+    print("El número ingresado no es válido.")
+else:
+    print("Números impares hasta", num, ":")
+    for i in range(1, num + 1, 2):
+        print(i)
 
 #punto 9
 cont = int(0)
@@ -69,3 +112,18 @@ print(f"Números paresentre {num1} y {num2} son:")
 for k in range(num1, num2,+1):
     if(k%2==0):
         print(k)
+
+#punto 15
+num = int(input("Ingrese un número entero positivo mayor a 1: "))
+es_primo = True
+if num <= 1:
+    es_primo = False
+else:
+    for i in range(2, num):
+        if num % i == 0:
+            es_primo = False
+            break
+if es_primo:
+    print(f"{num} es un número primo.")
+else:
+    print(f"{num} no es un número primo.")
