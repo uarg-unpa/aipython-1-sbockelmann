@@ -7,4 +7,4 @@ if edad_usuario1 < 4:
 elif edad_usuario1 > 4 and edad_usuario1 < 8:
     print("Debe pagar $5")
 else:
-    print("Debe pagar $10"
+    print("Debe pagar $10")
