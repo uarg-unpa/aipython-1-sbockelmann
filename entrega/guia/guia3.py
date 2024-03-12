@@ -1,8 +1,9 @@
 #punto 1
 num = 0
 while num <= 100:
-    num= num+1
     print(num)
+    num= num+1
+
 #punto 2
 for i in range(0, 100):
     print(i, end=' ')
