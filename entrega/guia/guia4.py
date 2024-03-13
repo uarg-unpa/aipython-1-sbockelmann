@@ -68,7 +68,7 @@ resul=invertir(palabra)
 print(f"La palabra invertida es: {resul}")
 
 #punto 9
-def palíndromo(palabras):
+def palindromo(palabras):
     palabras = palabras.lower().replace(" ", "")
     return palabras == palabras[::-1]
     
@@ -78,5 +78,11 @@ if palindromo(palabras):
 else:
     print(f"'{palabras}' no es un palíndromo.")
 
+#punto 10
+def fahrenheit_a_celsius(fahrenheit):
+    celsius = (fahrenheit - 32) * 5/9
+    return celsius
 
-    
+temperatura_fahrenheit = float(input("Ingresa la temperatura en Fahrenheit: "))
+temperatura_celsius = fahrenheit_a_celsius(temperatura_fahrenheit)
+print(f"{temperatura_fahrenheit} grados Fahrenheit son equivalentes a {temperatura_celsius} grados Celsius.")
