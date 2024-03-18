@@ -40,17 +40,11 @@ for j in range(len(compañia)):
 #punto 7.c
     
 #punto 8
-print(datos_personales)
-
-#punto 9
-
-#punto 10
-
-#punto 11
 lista_numero=[1,2,3,4,5,6,7,8,9,10]
 print(lista_numero[:3])
 
-#punto 12
+
+#punto 9
 letras=['a','b','c','d','e','f','g','h','i','j']
 cont=0
 for i in range(len(letras)):
@@ -58,12 +52,14 @@ for i in range(len(letras)):
     print(letras[:i])
     i=i+2
 
-#punto 11
-print("PUNTO 11")
+#punto 10
 mi_lista=[2,3,4,5]
 print(mi_lista[::-1])
 
-#punto 12
+#punto 11
+print("PUNTO 11")
 palabra_favorita=['Perro','Gato','Teléfono', 'Lentes','Suculentas','Termo', 'Mate', 'Café', 'Mate Cocido']
 sublista=palabra_favorita[3:7]
 print(sublista)
+
+#punto 12
