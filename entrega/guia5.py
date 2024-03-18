@@ -63,8 +63,51 @@ sublista=palabra_favorita[1:4]
 print(sublista)
 
 #punto 12
-flores=[['rosas', 'orquídea','lirio','tulipan', 'margarita', 'dalia', 'hortensia']]
-elementos_desde_tercero = flores[2:5]
-print(elementos_desde_tercero)
+flores=['rosas', 'orquídea','lirio','tulipan', 'margarita', 'dalia', 'hortensia']
+#punto 12.a
+tercer_elemento=flores[2:5]
+print(f"a. Mostrar tres elementos desde el tercer elemento: {tercer_elemento}" )
+#punto 12.b
+print("b. Elementos en posiciones pares desde la segunda posición:", flores[1::2])
+#punto 12.c
+print("c. Todos los elementos desde la primera posición saltando de a tres elementos:", flores[::3])
+
 
 #punto 13
+def contar_vocales(lista_caracteres):
+    vocales="aeiouAEIOU"
+    cantidad_vocales=0
+    for caracter in lista_caracteres:
+        if caracter in vocales:
+            cantidad_vocales=cantidad_vocales+1
+    return cantidad_vocales
+lista_caracteres = ['a', 'r', 'e', 'k', 'o', 'E', 'A', 'U']
+cantidad = contar_vocales(lista_caracteres)
+print(f"La lista tiene {cantidad} vocales.")
+
+#punto 14
+def intercalar_listas(lista1, lista2):
+    lista_resultante=[]
+    longitud_maxima=max(len(lista1), len(lista2))
+    for i in range(len(lista1)):
+        if i < len(lista1):
+            lista_resultante.append(lista1[i])
+        if i < len(lista2):
+            lista_resultante.append(lista2[i])
+    return lista_resultante
+lista1 = ['a', 'b', 'c','d','e','f','g']
+lista2 = [1, 2, 3,4,5,6]
+nueva_lista = intercalar_listas(lista1, lista2)
+print(n)
+
+#punto 15
+def promedio(lista_numero):
+    suma=0
+    promedio=0
+    for j in range(len(lista_numero)):
+        suma=suma+lista_numero[j]
+    promedio= suma/len(lista_numero)
+    return promedio
+lista_numero=[1,2.3,5,10,11]
+resultado_promedio=promedio(lista_numero)
+print(f"El promedio de la lista número es: {resultado_promedio} ")
