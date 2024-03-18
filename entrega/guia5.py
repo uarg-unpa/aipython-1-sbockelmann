@@ -98,7 +98,7 @@ def intercalar_listas(lista1, lista2):
 lista1 = ['a', 'b', 'c','d','e','f','g']
 lista2 = [1, 2, 3,4,5,6]
 nueva_lista = intercalar_listas(lista1, lista2)
-print(n)
+print(nueva_lista)
 
 #punto 15
 def promedio(lista_numero):
