@@ -86,3 +86,4 @@ def fahrenheit_a_celsius(fahrenheit):
 temperatura_fahrenheit = float(input("Ingresa la temperatura en Fahrenheit: "))
 temperatura_celsius = fahrenheit_a_celsius(temperatura_fahrenheit)
 print(f"{temperatura_fahrenheit} grados Fahrenheit son equivalentes a {temperatura_celsius} grados Celsius.")
+
