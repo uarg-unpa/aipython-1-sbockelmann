@@ -59,7 +59,12 @@ print(mi_lista[::-1])
 #punto 11
 print("PUNTO 11")
 palabra_favorita=['Perro','Gato','Teléfono', 'Lentes','Suculentas','Termo', 'Mate', 'Café', 'Mate Cocido']
-sublista=palabra_favorita[3:7]
+sublista=palabra_favorita[1:4]
 print(sublista)
 
 #punto 12
+flores=[['rosas', 'orquídea','lirio','tulipan', 'margarita', 'dalia', 'hortensia']]
+elementos_desde_tercero = flores[2:5]
+print(elementos_desde_tercero)
+
+#punto 13

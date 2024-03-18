@@ -1,5 +1,5 @@
-#punto 1
-def multiplicacion (num1,num2):
+#punto 10
+def multiplicacion (num1=2,num2=1):
     return (num1*num2)
 
 num1=int(input("Ingrese el primer número: "))
@@ -40,10 +40,10 @@ paroimpar(numer)
 
 #punto 6
 def factorial(n):
-    if n == 0:
-        return 1
-    else:
-        return n * factorial(n-1)
+    resultado = 1
+    for i in range(1, numero + 1):
+        resultado *= i
+    return resultado
 
 numero = int(input("Ingresa un número para calcular su factorial: "))
 resultado = factorial(numero)
