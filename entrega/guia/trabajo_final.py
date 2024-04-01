@@ -1,11 +1,12 @@
 import random
+
 def lanzar_dado(caras):
     return  random.randint(1,caras)
 
 def lanzar_dados(cantidad, numero_caras):
     resultados = []
     for _ in range(cantidad):
-        resultados.append(lanzar_dado(num_caras))
+        resultados.append(lanzar_dado(numero_caras))
 
 def calcular_resultados(resultados):
     return sum(resultados)
