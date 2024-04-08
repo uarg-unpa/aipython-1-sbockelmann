@@ -21,7 +21,8 @@ def mostrar_estadisticas(resultados):
     print(f"Valor máximo: {maximo}")
     print(f"Promedio: {promedio}")
 
-
+print("Bienvenido al Simulador de Lanzamientos de Dados")
+print()
 cantidad_dados = int(input("Ingrese la cantidad de dados que desea lanzar: "))
 numero_caras = int(input("Ingrese el número de caras de cada dado: "))
 cantidad_lanzamientos = int(input("Ingrese la cantidad de lanzamientos: "))
